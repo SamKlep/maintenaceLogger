@@ -1,58 +1,40 @@
 {
   "logs": [
-      {
-          "id": 1,
-          "message": "Changed out leaky faucet",
-          "unit": "414",
-          "attention": false,
-          "date": "1-10-2020",
-          "tech": "Samuel Danger"
-      },
-      {
-          "id": 2,
-          "message": "Fixed hole in wall",
-          "unit": "536",
-          "attention": true,
-          "date": "1-15-2020",
-          "tech": "John Floyd"
-      },
-      {
-          "id": 3,
-          "message": "Changed 2 light bulbs",
-          "unit": "603",
-          "attention": false,
-          "date": "1-27-2020",
-          "tech": "Fred Howard"
-      },
-      {
-          "id": 4,
-          "message": "Changed A/C motor",
-          "unit": "302",
-          "attention": false,
-          "date": "1-20-2020",
-          "tech": "Samuel Danger"
-      }
+    {
+      "message": "did something",
+      "attention": "",
+      "tech": "John Doe",
+      "date": "2020-03-03T03:51:52.080Z",
+      "id": 1
+    },
+    {
+      "message": "did something",
+      "attention": true,
+      "tech": "Henry Henderson",
+      "date": "2020-03-03T03:52:29.150Z",
+      "id": 2
+    }
   ],
   "techs": [
-      {
-          "id": 1,
-          "firstName": "John",
-          "lastName": "Doe"
-      },
-      {
-          "id": 2,
-          "firstName": "Phillip",
-          "lastName": "Morris"
-      },
-      {
-          "id": 3,
-          "firstName": "Chuck",
-          "lastName": "Baker"
-      },
-      {
-          "id": 4,
-          "firstName": "Sally",
-          "lastName": "May"
-      }
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe"
+    },
+    {
+      "id": 2,
+      "firstName": "Phillip",
+      "lastName": "Morris"
+    },
+    {
+      "id": 3,
+      "firstName": "Chuck",
+      "lastName": "Baker"
+    },
+    {
+      "id": 4,
+      "firstName": "Sally",
+      "lastName": "May"
+    }
   ]
 }
