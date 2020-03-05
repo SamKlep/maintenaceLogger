@@ -76,7 +76,7 @@ export const AddLogModal = ({ addLog }) => {
 
                 </div>
                     <div className='modal-footer'>
-                        <a href='#!' onClick={onsubmit} className='modal-close blue waves-effect waves-light btn'>Enter</a>
+                        <a href='#!' onClick={onsubmit} className='modal-close indigo waves-effect waves-light btn'>Enter</a>
                     </div>
 
             </div>

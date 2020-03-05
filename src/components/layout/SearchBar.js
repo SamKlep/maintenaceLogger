@@ -11,7 +11,7 @@ import { searchLogs } from '../../actions/logActions';
     };
 
     return (
-        <nav style={{ marginBottom: '30px' }} className="blue">
+        <nav style={{ marginBottom: '30px' }} className="indigo">
             <div className="nav-wrapper">
                 <form>
                     <div className="input-field">
