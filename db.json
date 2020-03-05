@@ -1,18 +1,32 @@
 {
   "logs": [
     {
-      "message": "did something",
+      "message": "Lights not working 710",
       "attention": "",
-      "tech": "John Doe",
-      "date": "2020-03-03T03:51:52.080Z",
-      "id": 1
+      "tech": "Sampson Willam",
+      "date": "2020-03-05T03:49:11.349Z",
+      "id": 2
     },
     {
-      "message": "did something",
+      "message": "Lights not working 710",
+      "attention": true,
+      "tech": "John Doe",
+      "date": "2020-03-05T03:49:33.756Z",
+      "id": 3
+    },
+    {
+      "message": "leaking pipe under sink",
+      "attention": true,
+      "tech": "Sampson Willam",
+      "date": "2020-03-05T03:49:52.497Z",
+      "id": 4
+    },
+    {
+      "message": "AC not working 901",
       "attention": true,
       "tech": "Henry Henderson",
-      "date": "2020-03-03T03:52:29.150Z",
-      "id": 2
+      "date": "2020-03-05T03:50:33.373Z",
+      "id": 5
     }
   ],
   "techs": [
