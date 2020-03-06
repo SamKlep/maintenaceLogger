@@ -2,6 +2,7 @@ import React, { Fragment, useEffect } from 'react';
 import SearchBar from './components/layout/SearchBar';
 import Logs from './components/logs/Logs';
 import AddBtn from './components/layout/AddBtn';
+import Header from './components/layout/Header';
 import AddLogModal from './components/logs/AddLogModal';
 import EditLogModal from './components/logs/EditLogModal';
 import AddTechModal from './components/techs/AddTechModal';
@@ -22,7 +23,7 @@ const App = () => {
   return (
     <Provider store={store}>
   <Fragment>
-    <SearchBar />
+    <Header />
     <div className="container">
       <AddBtn />
       <AddLogModal />
@@ -30,7 +31,9 @@ const App = () => {
      <AddTechModal />
      <TechListModal />
       <Logs />
+      <SearchBar />
     </div>
+    
   </Fragment>
   </Provider>
   );
