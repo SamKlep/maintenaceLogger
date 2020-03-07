@@ -20,7 +20,7 @@ import { getLogs } from '../../actions/logActions';
     return (
         <ul className="collection with-header">
             <li className="collection-header">
-                <h4 className="center">Maintenance Logs</h4>
+                <h3 className="center">Maintenance Logs</h3>
             </li>
             {!loading && logs.length === 0 ? (<p className="center">No logs to show...</p>) : (logs.map(log => <LogItem log={log} key={log.id} />)
             )}

@@ -22,7 +22,7 @@ const LogItem = ({ log, deleteLog, setCurrent }) => {
                     onClick={() => setCurrent(log)}
                 >
                     {log.message}
-                    {log.unit}
+                   
                 </a>
                 <br />
                 <span className='grey-text'>

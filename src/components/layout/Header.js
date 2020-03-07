@@ -1,20 +1,22 @@
 import React from 'react';
-
+import M from 'materialize-css/dist/js/materialize.min.js';
 
  const Header = () => {
-    // const text = useRef('');
+    // const text = useRefm('');
 
     // const onChange = e => {
-    //     searchLogs(text.current.value);
+    //     M.searchLogs(text.current.value);
     // };
  
     return (
       <nav>
-      <div class="nav-wrapper green accent-3">
+      <div class="nav-wrapper orange">
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+          <li><a href="index.html"><i className='material-icons large black-text'>build</i></a></li>
+        </ul>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="sass.html">Sass</a></li>
-          <li><a href="badges.html">Components</a></li>
-          <li><a href="collapsible.html">JavaScript</a></li>
+          <li><a href="phone.html"><i className='material-icons black-text'>phone</i></a></li>
+          <li><a href="message.html"><i className='material-icons black-text'>message</i></a></li>
         </ul>
       </div>
     </nav>

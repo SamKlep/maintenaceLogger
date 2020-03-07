@@ -3,7 +3,7 @@ import React from 'react';
 export const AddBtn = () => {
     return (
         <div className='fixed-action-btn'>
-            <a href='#add-log-modal' className='btn-floating btn-large indigo darken-2 modal-trigger'>
+            <a href='#add-log-modal' className='btn-floating btn-large purple accent-2 modal-trigger'>
                 <i className="large material-icons">add</i>
             </a>
             <ul>
@@ -13,7 +13,7 @@ export const AddBtn = () => {
                 </a>
                 </li>
                 <li>
-                <a href="#add-tech-modal" className="btn-floating orange modal-trigger">
+                <a href="#add-tech-modal" className="btn-floating yellow accent-3 modal-trigger">
                     <i className="material-icons">person_add</i>
                 </a>
                 </li>

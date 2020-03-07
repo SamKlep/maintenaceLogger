@@ -1,6 +1,13 @@
-.brand-logo {
-    
+.logo-header {
     padding: 5px;
     height: 100px;
     width: 100px;
+  }
+
+  .header-bg {
+    background-color: teal;
+  }
+
+  .footer {
+    background-color: teal;
   }
