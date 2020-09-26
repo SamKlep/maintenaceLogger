@@ -29,7 +29,7 @@ export const getLogs = () => async (dispatch) => {
   try {
     setLoading();
 
-    const res = await fetch('https://angry-murdock-89b23c.netlify.app/db.json');
+    const res = await fetch('/logs');
     const data = await res.json();
 
     dispatch({
