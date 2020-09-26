@@ -1,0 +1,39 @@
+{
+  "techs": [
+    {
+      "id": 1,
+      "firstName": "Jeffery",
+      "lastName": "McJeffery"
+    },
+    {
+      "id": 2,
+      "firstName": "Phillis",
+      "lastName": "Davies"
+    },
+    {
+      "id": 3,
+      "firstName": "Chuck",
+      "lastName": "Baker"
+    },
+    {
+      "id": 4,
+      "firstName": "Sally",
+      "lastName": "May"
+    },
+    {
+      "firstName": "Garfield",
+      "lastName": "Johnson",
+      "id": 5
+    },
+    {
+      "firstName": "Justin ",
+      "lastName": "Henson",
+      "id": 6
+    },
+    {
+      "firstName": "Bobby",
+      "lastName": "McGee",
+      "id": 7
+    }
+  ]
+}
